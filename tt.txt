@@ -1,0 +1,16 @@
+Đầu tiên em tạo lớp hcn va lớp htron
+trong lớp hcn và lớp htron thì có thiết lập và vẽ
+sau đó tạo thêm lớp xe
+trong lớp xe thì có khai báo tọa đọ của thân xe, bánh xe, đầu xe
+dùng lớp hcn để ve đầu xe và thân xe
+dùng lớp htron để vẽ bánh xe
+và có các phương thức vexe,vexenguoc,dichuyen
+trong pt vẽ xe thì thiết lập các tọa độ và vẽ(xe.cpp)
+trong di chuyển xe thì dùng một vòng lặp while để di chuyển và tô màu xe cũ thành màu trắng
+trong xe_di_chuyenview.cpp 
+thiết lập tọa ban đầu cho xe
+dùng sự kiện keydown để di chuyển xe (check_key khai ở xe_di_chuyenview.h)
+if check_key == 37 (nút mũi tên trái)
+tô màu xe ban đầu màu trắng ( pen) và vẽ xe ngược màu đen va di chuyển (pen1)
+if check_key == 39 (nút mũi tên phải)
+tô màu xe ngược màu trắng (pen) và vẽ xe ban đầu màu đen va di chuyển (pen2)
